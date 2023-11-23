@@ -1,0 +1,18 @@
+{
+  "name": "lld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node build/index.js",
+    "run":"nodemon ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
